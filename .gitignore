@@ -1,0 +1,76 @@
+HELP.md
+target/
+!.mvn/wrapper/maven-wrapper.jar
+!**/src/main/**
+!**/src/test/**
+
+### STS ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### IntelliJ IDEA ###
+.idea
+*.iws
+*.iml
+*.ipr
+
+### NetBeans ###
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+/.nb-gradle/
+build/
+
+### VS Code ###
+.vscode/
+
+### 业务 ###
+# Created by .gitignore support plugin (hsz.mobi)
+#
+#*.jar
+*.war
+*~
+*.class
+*.lock
+*.DS_Store
+*.swp
+*.out
+target/
+*.iml
+*.ipr
+*.iws
+.settings/
+.classpath
+.project
+.metadata/
+.idea/
+.mine/
+logs/
+log/
+log.txt
+*.log
+dev.properties
+dubbo.properties
+dev-admin.properties
+dependency-reduced-pom.xml
+*.rdb
+*.gz
+*apidocs/
+*.versionsBackup
+*.perm
+flyway.properties
+_book/
+site/
+#application.properties
+#application.yml
+rebel.xml
+.env
+*.bak
+pubfund_download/
+pubfund_compress/
